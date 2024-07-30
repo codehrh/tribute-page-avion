@@ -1,0 +1,115 @@
+html, body {
+  background-image: url("Dawntrail.png");
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.navbar {
+  background-color: #4f4f4f;
+  overflow: hidden;
+  height: auto;
+}
+
+#tribute-home{
+  padding-left: 5px !important;
+}
+#tribute-link {
+  float: right;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4f4f4f;
+}
+
+li {
+  float: left;
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: #f1e9e9;
+  padding: 10px;
+  background-color: #4f4f4f;
+  font-family: Arial;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a img {
+  display: block;
+  height: 18px;
+  width: auto;
+
+}
+
+li a img:hover {
+  animation: rgbEffect 3s linear infinite;
+}
+
+@keyframes rgbEffect {
+  0% { filter: hue-rotate(0deg); }
+  100% { filter: hue-rotate(360deg); }
+}
+
+li a:hover {
+  transition: 1s;
+  background-color: black;
+}
+
+.headertext {
+  font-family: Roboto;
+}
+
+#img-div {
+  position: relative;
+  margin-bottom: -4px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #1d8c67;
+  max-width: 70%;
+  min-width: 30%;
+  margin: auto;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: Arial;
+}
+
+.information p{
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+.involvement{
+  color: black !important;
+}
